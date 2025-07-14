@@ -100,7 +100,7 @@ svg {
   color: white;
 }
 
-footer {
+.footer {
   margin-top: 100px;
   text-align: center;
   color: #fff;
@@ -142,7 +142,7 @@ footer {
     gap: 0;
     box-sizing: border-box;
     overflow-x: auto;
-    background: #000 !important;
+    background: black !important;
   }
   .nav-home, .nav-contact {
     min-width: 0;
@@ -193,9 +193,9 @@ footer {
     min-width: unset;
     width: auto;
   }
-  body {
-    background: #000 !important;
-    color: #fff !important;
+  .body {
+    background: black !important;
+    color: white !important;
   }
   .dalone {
     margin-top: 24px;
