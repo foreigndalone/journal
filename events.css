@@ -198,7 +198,7 @@ svg {
   .nav-center {
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    gap: 6px;
     justify-content: center;
     align-items: center;
     flex: 1 1 auto;
@@ -225,7 +225,7 @@ svg {
     color: #FFFA95 !important;
     background: #000 !important;
     font-size: 12px;
-    padding: 12px 12px;
+    padding: 8px 8px;
     height: 32px;
     display: flex;
     align-items: center;
