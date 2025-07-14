@@ -386,7 +386,7 @@ svg {
     margin: 0 2px;
   }
   .navbar a, .nav-contact {
-    font-size: 11px;
+    font-size: 14px;
     padding: 3px 6px;
     border-radius: 0;
     min-width: unset;
@@ -417,7 +417,7 @@ svg {
     text-align: center;
   }
   .about-up {
-    font-size: 12px;
+    font-size: 24px;
     margin: 0 0 4px 0;
     font-family: "Figtree", sans-serif;
     font-weight: 900;
