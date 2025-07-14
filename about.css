@@ -129,6 +129,7 @@ footer {
 }
 
 @media (max-width: 900px) {
+  /* === НАВБАР В ОДИН РЯД === */
   .navbar {
     width: 100vw;
     min-width: 0;
@@ -136,12 +137,12 @@ footer {
     padding: 0 2vw;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;          /* В одну строку */
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     gap: 0;
     box-sizing: border-box;
-    overflow-x: auto;           /* Если не влазит — скролл */
+    overflow-x: auto;
   }
   .nav-home,
   .nav-contact {
@@ -160,9 +161,9 @@ footer {
   }
   .nav-center {
     display: flex;
-    flex-direction: row;        /* Горизонтально */
+    flex-direction: row;
     align-items: center;
-    gap: 6px;                   /* Меньше gap */
+    gap: 6px;
     margin: 0;
     padding: 0;
     flex: 1 1 auto;
@@ -179,7 +180,7 @@ footer {
     justify-content: center;
     box-sizing: border-box;
     margin: 0;
-    white-space: nowrap;        /* В одну строку! */
+    white-space: nowrap;
     line-height: 1.2;
     background: none;
     border: none;
@@ -190,6 +191,62 @@ footer {
     background: #000;
     min-width: unset;
     width: auto;
+  }
+
+  /* === ОСНОВНОЙ КОНТЕНТ === */
+  .dalone {
+    margin-top: 32px;
+  }
+  .about-up {
+    font-size: 18px;
+    margin: 0 0 8px 0;
+    letter-spacing: 1px;
+  }
+  .about-main {
+    font-size: 48px;
+    letter-spacing: -4px;
+    margin: 0 0 0 0;
+  }
+  section {
+    margin-top: 18px;
+    padding: 0 1vw;
+    display: flex;
+    justify-content: center;
+  }
+  .about-hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    max-width: 99vw;
+  }
+  .about-photo {
+    width: 52vw;
+    max-width: 200px;
+    min-width: 90px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .about-mission {
+    font-size: 15px;
+    max-width: 95vw;
+    padding: 0 2vw;
+  }
+  footer {
+    margin-top: 28px;
+    padding: 0 2vw;
+  }
+  footer h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-top: 22px;
+  }
+  .footer-center {
+    font-size: 13px;
+    max-width: 98vw;
+    margin: 10px auto 0 auto;
+  }
+  #lil-text {
+    margin-bottom: 18px;
   }
 }
 
@@ -205,16 +262,71 @@ footer {
   .nav-center {
     gap: 3px;
   }
+
+  .about-up {
+    font-size: 13px;
+  }
+  .about-main {
+    font-size: 25px;
+    letter-spacing: -2px;
+  }
+  section {
+    margin-top: 10px;
+    padding: 0;
+  }
+  .about-photo {
+    width: 80vw;
+    max-width: 130px;
+    min-width: 40px;
+  }
+  .about-mission {
+    font-size: 10.5px;
+    padding: 0 1vw;
+    max-width: 98vw;
+  }
+  footer h2 {
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  .footer-center {
+    font-size: 9.5px;
+    max-width: 98vw;
+  }
 }
 
 @media (max-width: 400px) {
   .navbar a, .nav-contact {
-    font-size: 9.5px;
+    font-size: 8.5px;
     padding: 2px 2px;
   }
   .nav-home svg {
-    width: 13px;
-    height: 13px;
+    width: 12px;
+    height: 12px;
+  }
+
+  .about-up {
+    font-size: 10px;
+  }
+  .about-main {
+    font-size: 13px;
+    letter-spacing: -1px;
+  }
+  .about-photo {
+    width: 90vw;
+    max-width: 80px;
+    min-width: 28px;
+  }
+  .about-mission {
+    font-size: 8px;
+    max-width: 99vw;
+    padding: 0;
+  }
+  footer h2 {
+    font-size: 8px;
+    margin-top: 8px;
+  }
+  .footer-center {
+    font-size: 7px;
+    max-width: 99vw;
   }
 }
-
