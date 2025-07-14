@@ -106,11 +106,12 @@ footer {
   color: #fff;
 }
 
-.footer h2 {
+footer h2 {
   font-family: "Figtree", sans-serif;
   font-size: 40px;
   font-weight: 900;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-center {
