@@ -1,0 +1,168 @@
+body {
+    background-color: black;
+}
+nav {
+  width: 100%;
+  margin: 48px auto;
+  /* центрируем всё содержимое */
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav {
+  display: flex;
+  gap: 374px;  /* расстояние между кнопками */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main-nav li {
+list-style: none;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.main-nav a:hover {
+  color: #FFFA95;
+}
+.dalone {
+  color: white;
+  text-align: center;
+  margin-top: 120px;
+}
+.dalone h1 {
+  font-size: 142px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 900;
+  letter-spacing: -14px;
+  color: #FFFA95;
+  margin: -24px 0;
+}
+.dalone h3, .dalone h4 {
+  font-family: "Figtree", sans-serif;
+  margin: -24px 0;
+}
+.dalone h3 {
+  font-size: 40px;
+}
+.dalone h4 {
+  font-size: 32px;
+  font-family: "Forum", serif;
+  font-weight: 400;
+}
+section {
+  width: 820px;
+  margin: 94px auto 0 auto;
+}
+.folder-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px; /* расстояние между папками */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.folder {
+  font-size: 38px;
+  color: white;
+  font-family: "Figtree", sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+/* === МОБИЛЬНАЯ АДАПТАЦИЯ === */
+@media (max-width: 900px) {
+  nav {
+    width: 100vw;
+    margin: 16px 0 0 0;
+    padding: 0 6vw;
+    min-height: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-top: 48px;
+  }
+  .main-nav {
+    gap: 16px;
+  }
+  .main-nav a {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+  .dalone h1 {
+    font-size: 54px;
+    letter-spacing: -5px;
+    margin-bottom: 28px;
+  }
+  .dalone h3 {
+    font-size: 20px;
+    margin-bottom: 28px;
+  }
+  .dalone h4 {
+    font-size: 16px;
+    margin-bottom: 28px;
+  }
+  section {
+    width: 98vw;
+    margin: 32px auto 0 auto;
+  }
+  .folder {
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 2px 0;
+  }
+  .folder-list {
+    gap: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 2vw;
+    min-width: 0;
+  }
+  .main-nav {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .main-nav li {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .main-nav a {
+    display: block;
+    padding: 12px 0;
+    font-size: 16px;
+    border-radius: 0;
+    width: 100%;
+  }
+  section {
+    margin: 22px auto 48px auto;
+    width: 99vw;
+  }
+  .folder-list {
+    gap: 8px;
+  }
+  .folder {
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 1px 0;
+  }
+}

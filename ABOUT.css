@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: "Figtree", sans-serif;
+}
+
+.navbar {
+  width: 1180px;
+  margin: 60px auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.nav-home, .nav-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  /* чтобы домик и contact были по краям, одинаково */
+}
+
+.nav-center {
+  display: flex;
+  gap: 80px;  /* расстояние между центральными кнопками */
+  justify-content: center;
+  flex: 1 1 auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 900;
+  transition: color 0.2s;
+  padding: 8px 18px;
+  border-radius: 0%;
+}
+.nav-contact {
+    padding: 18px 32px;
+    background-color: #000000;
+    border:#FFFA95 solid 2px;
+}
+svg {
+    width: 62px;
+    height: 62px;
+    padding: 32px;
+    background-color: #FFFA95;
+}
+
+.dalone {
+  color: white;
+  text-align: center;
+  margin-top: 120px;
+}
+.about-up {
+  font-family: "Figtree", sans-serif;
+  font-size: 40px; /* как Design by Elllis на foreign */
+  font-weight: 900;
+  margin: -24px 0 0 0;
+  letter-spacing: 2px;
+}
+.about-main {
+  font-family: "Figtree", sans-serif;
+  font-size: 142px; /* как FOREIGNDALONE на foreign */
+  font-weight: 900;
+  color: #FFFA95;
+  letter-spacing: -14px;
+  margin: -24px 0 0 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.about-hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 64px;
+  max-width: 1100px;
+}
+
+.about-photo {
+  width: 370px;
+  height: auto;
+  border-radius: 0%;
+  object-fit: cover;
+}
+
+.about-mission {
+  font-size: 24px;
+  max-width: 700px;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+  color: white;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+footer h2 {
+  font-family: "Figtree", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+.footer-center {
+  text-align: center;
+  margin: 24px auto 0 auto;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  max-width: 850px;
+  color: white;
+}
+
+#lil-text {
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    width: 100vw;
+    margin: 16px 0 0 0;
+    padding: 0 6vw;
+    min-height: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+  .nav-home, .nav-contact {
+    min-width: 0;
+    padding: 0;
+  }
+  .nav-home svg {
+    width: 38px;
+    height: 38px;
+    padding: 3px;
+    background: #FFFA95;
+  }
+  .nav-center {
+    gap: 18px;
+  }
+  .navbar a {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+  .dalone {
+    margin-top: 34px;
+    margin-bottom: 0px;
+  }
+  .about-up {
+    font-size: 18px;
+    margin: 0 0 8px 0;
+    letter-spacing: 1px;
+  }
+  .about-main {
+    font-size: 48px;
+    letter-spacing: -4px;
+    margin: 0 0 0 0;
+  }
+  .section {
+    margin-top: 30px;
+    padding: 0 1vw;
+  }
+  .about-hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    max-width: 99vw;
+  }
+  .about-photo {
+    width: 60vw;
+    max-width: 300px;
+    min-width: 120px;
+    height: auto;
+    margin-top: -56px;
+  }
+  .about-mission {
+    font-size: 16px;
+    max-width: 92vw;
+    padding: 0 1vw;
+  }
+  .footer {
+    margin-top: 38px;
+    padding: 0 2vw;
+  }
+  .footer h2 {
+    font-size: 18px;
+    margin-bottom: 7px;
+    margin-top: 24px;
+  }
+  .footer-center {
+    font-size: 15px;
+    max-width: 96vw;
+    margin: 8px auto 0 auto;
+  }
+  #lil-text {
+    margin-bottom: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 2vw;
+    min-width: 0;
+  }
+  .nav-home, .nav-center, .nav-contact {
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .nav-center {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+  .navbar a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  .dalone {
+    margin-top: 10px;
+  }
+  .about-up {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  .about-main {
+    font-size: 26px;
+    letter-spacing: -1px;
+  }
+  section {
+    margin-top: 10px;
+    padding: 0;
+  }
+  .about-photo {
+    width: 85vw;
+    max-width: 250px;
+    min-width: 70px;
+    margin: 0 auto 8px auto;
+  }
+  .about-mission {
+    font-size: 12px;
+    max-width: 97vw;
+    padding: 0;
+  }
+  .footer h2 {
+    font-size: 12px;
+    margin-top: 14px;
+  }
+  .footer-center {
+    font-size: 10px;
+    max-width: 98vw;
+  }
+}
