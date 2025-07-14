@@ -142,7 +142,7 @@ svg {
     gap: 0;
     box-sizing: border-box;
     overflow-x: auto;
-    background: black !important;
+    background-color: #000000 ;
   }
   .nav-home, .nav-contact {
     min-width: 0;
@@ -260,7 +260,7 @@ svg {
 
 @media (max-width: 1100px) {
   body, .body {
-    background: #000 !important;
+    background-color: #000000 !important;
     color: #fff !important;
   }
   .navbar {
