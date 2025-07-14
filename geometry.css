@@ -168,22 +168,108 @@ svg {
 }
 
 /* На совсем маленьких экранах — всё в столбик */
-@media (max-width: 480px) {
-  .navbar {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 0 2vw;
+@media (max-width: 420px) {
+  body, .body {
+    background: #000 !important;
+    color: #fff !important;
   }
-  .nav-home,
-  .nav-center,
-  .nav-contact {
-    justify-content: center;
-    margin: 0 auto;
+  .navbar {
+    width: 100vw !important;
+    margin: 0 !important;
+    padding: 0 3vw !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 0 !important;
+    box-sizing: border-box !important;
+    overflow-x: auto !important;
+    background: #000 !important;
+    min-width: 0 !important;
+  }
+  .nav-home {
+    margin-right: 2px !important;
+    min-width: unset !important;
+  }
+  .nav-home svg {
+    width: 38px !important;
+    height: 38px !important;
+    background: #FFFA95 !important;
+    padding: 0 !important;
+    display: block !important;
   }
   .nav-center {
-    margin: 8px 0;
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 13px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex: 1 1 auto !important;
+    margin: 0 2px !important;
+    min-width: 0 !important;
   }
+  .navbar a, .nav-contact {
+    font-size: 12.5px !important;
+    padding: 11px 9px !important;
+    min-width: unset !important;
+    width: auto !important;
+    height: 32px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: none !important;
+    border: none !important;
+    color: #fff !important;
+    white-space: nowrap !important;
+    margin: 0 1.5px !important;
+    border-radius: 0 !important;
+    box-sizing: border-box !important;
+  }
+  .navbar a:hover { color: #FFFA95 !important; }
   .nav-contact {
-    margin-bottom: 10px;
+    border: #FFFA95 1px solid !important;
+    color: #FFFA95 !important;
+    background: #000 !important;
+    font-size: 12.5px !important;
+    padding: 11px 11px !important;
+    height: 32px !important;
+    margin-left: 2px !important;
+  }
+
+  /* === Заголовок === */
+  .dalone {
+    margin-top: 24px !important;
+    margin-bottom: 0 !important;
+    text-align: center !important;
+  }
+  .dalone h2 {
+    font-size: 28px !important;
+    margin: 0 0 17px 0 !important;
+    font-family: "Figtree", sans-serif !important;
+    font-weight: 900 !important;
+    letter-spacing: 1.4px !important;
+    color: #fff !important;
+  }
+
+  /* === Галерея === */
+  .gallery {
+    width: 100vw !important;
+    gap: 12px !important;
+    padding-bottom: 24px !important;
+    margin-top: 0 !important;
+  }
+  .inline-img,
+  .gallery img {
+    width: 96vw !important;
+    max-width: 98vw !important;
+    min-width: 0 !important;
+    margin: 0 auto !important;
+    display: block !important;
+    height: auto !important;
+    object-fit: cover !important;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 14px #0008 !important;
+    background: #181818 !important;
   }
 }
+
