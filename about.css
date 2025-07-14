@@ -371,23 +371,23 @@ svg {
     margin-right: 2px;
   }
   .nav-home svg {
-    width: 28px;
-    height: 28px;
+    width: 48px;
+    height: 48px;
     background: #FFFA95;
     padding: 0;
   }
   .nav-center {
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    gap: 14px;
     justify-content: center;
     align-items: center;
     flex: 1 1 auto;
     margin: 0 2px;
   }
   .navbar a, .nav-contact {
-    font-size: 28px;
-    padding: 3px 6px;
+    font-size: 20px;
+    padding: 12px 12px;
     border-radius: 0;
     min-width: unset;
     width: auto;
@@ -398,16 +398,16 @@ svg {
     border: none;
     color: #fff !important;
     white-space: nowrap;
-    height: 26px;
+    height: 32px;
   }
   .nav-contact {
     margin-left: 2px;
     border: #FFFA95 1px solid;
     color: #FFFA95 !important;
     background: #000 !important;
-    font-size: 11px;
-    padding: 3px 8px;
-    height: 26px;
+    font-size: 20px;
+    padding: 12px 12px;
+    height: 32px;
     display: flex;
     align-items: center;
   }
@@ -424,7 +424,7 @@ svg {
     letter-spacing: 1.2px;
   }
   .about-main {
-    font-size: 19px;
+    font-size: 20px;
     margin: 0 0 20px 0;
     color: #FFFA95;
     letter-spacing: -1.2px;
