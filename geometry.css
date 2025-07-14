@@ -168,7 +168,7 @@ svg {
 }
 
 /* На совсем маленьких экранах — всё в столбик */
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   body, .body {
     background: #000 !important;
     color: #fff !important;
