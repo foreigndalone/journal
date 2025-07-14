@@ -201,7 +201,7 @@ svg {
   .nav-center {
     display: flex !important;
     flex-direction: row !important;
-    gap: 13px !important;
+    gap: 4px !important;
     justify-content: center !important;
     align-items: center !important;
     flex: 1 1 auto !important;
@@ -209,8 +209,8 @@ svg {
     min-width: 0 !important;
   }
   .navbar a, .nav-contact {
-    font-size: 12.5px !important;
-    padding: 11px 9px !important;
+    font-size: 12px !important;
+    padding: 10px 10px !important;
     min-width: unset !important;
     width: auto !important;
     height: 32px !important;
@@ -230,8 +230,8 @@ svg {
     border: #FFFA95 1px solid !important;
     color: #FFFA95 !important;
     background: #000 !important;
-    font-size: 12.5px !important;
-    padding: 11px 11px !important;
+    font-size: 12px !important;
+    padding: 10px 10px !important;
     height: 32px !important;
     margin-left: 2px !important;
   }
