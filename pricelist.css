@@ -171,57 +171,172 @@ section {
   }
 }
 
+/* ======= МОБИЛЬНАЯ АДАПТАЦИЯ iPhone 12/13/14/15 и др. ======= */
 @media (max-width: 480px) {
-  .navbar {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 0 2vw;
-    min-width: 0;
+  body, .body {
+    background: #000 !important;
+    color: #fff !important;
   }
-  .nav-home, .nav-center, .nav-contact {
-    justify-content: center;
-    margin: 0 auto;
+  .navbar {
+    width: 100vw !important;
+    margin: 0 !important;
+    padding: 0 3vw !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 0 !important;
+    box-sizing: border-box !important;
+    overflow-x: auto !important;
+    background: #000 !important;
+    min-width: 0 !important;
+  }
+  .nav-home {
+    margin-right: 4px !important;
+    min-width: unset !important;
+  }
+  .nav-home svg {
+    width: 36px !important;
+    height: 36px !important;
+    background: #FFFA95 !important;
+    padding: 0 !important;
+    display: block !important;
   }
   .nav-center {
-    flex-direction: column;
-    gap: 0;
-    align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 12px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex: 1 1 auto !important;
+    margin: 0 2px !important;
+    min-width: 0 !important;
   }
-  .navbar a {
-    display: block;
-    width: 100%;
-    padding: 10px 0;
-    font-size: 14px;
+  .navbar a, .nav-contact {
+    font-size: 14.5px !important;
+    padding: 10px 10px !important;
+    min-width: unset !important;
+    width: auto !important;
+    height: 32px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: none !important;
+    border: none !important;
+    color: #fff !important;
+    white-space: nowrap !important;
+    margin: 0 2px !important;
+    border-radius: 0 !important;
+    box-sizing: border-box !important;
   }
+  .navbar a:hover { color: #FFFA95 !important; }
+  .nav-contact {
+    border: #FFFA95 1px solid !important;
+    color: #FFFA95 !important;
+    background: #000 !important;
+    font-size: 14.5px !important;
+    padding: 10px 10px !important;
+    height: 32px !important;
+    margin-left: 2px !important;
+  }
+
+  /* ===== Главные заголовки ===== */
   .dalone {
-    margin-top: 18px;
+    margin-top: 26px !important;
+    margin-bottom: 0 !important;
+    text-align: center !important;
   }
-  .dalone h1 {
-    font-size: 28px;
-    letter-spacing: -2px;
+  .dalone h2,
+  .about-up {
+    font-size: 22px !important;
+    margin: 0 0 4px 0 !important;
+    font-family: "Figtree", sans-serif !important;
+    font-weight: 900 !important;
+    letter-spacing: 1.2px !important;
   }
-  .dalone h3 {
-    font-size: 14px;
+  .dalone h1,
+  .about-main {
+    font-size: 36px !important;
+    margin: 0 0 16px 0 !important;
+    color: #FFFA95 !important;
+    letter-spacing: -1.5px !important;
+    font-family: "Figtree", sans-serif !important;
+    font-weight: 900 !important;
   }
-  .dalone h4 {
-    font-size: 12px;
+  section, .section {
+    margin-top: 0 !important;
+    padding: 0 !important;
+    width: 100vw !important;
+    display: flex !important;
+    justify-content: center !important;
   }
-  section {
-    margin: 14px auto 0 auto;
-    width: 99vw;
-    margin-bottom: 8px;
+  .about-hero {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 18px !important;
+    max-width: 99vw !important;
+    width: 100% !important;
   }
+  .about-photo {
+    width: 85vw !important;
+    max-width: 250px !important;
+    min-width: 60px !important;
+    height: auto !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+    display: block !important;
+    margin: 0 auto 12px auto !important;
+  }
+  .about-mission {
+    font-size: 16.5px !important;
+    max-width: 95vw !important;
+    color: #fff !important;
+    text-align: center !important;
+    line-height: 1.5 !important;
+    font-family: "Rubik", sans-serif !important;
+    margin: 0 auto 18px auto !important;
+    padding: 0 !important;
+  }
+
+  /* ======= Footer и основные секции ======= */
+  footer {
+    margin-top: 18px !important;
+    padding: 0 2vw !important;
+    color: #fff !important;
+    background: #000 !important;
+  }
+  footer h2 {
+    font-size: 22px !important;
+    margin: 14px 0 7px 0 !important;
+    text-align: center !important;
+    font-family: "Figtree", sans-serif !important;
+    font-weight: 900 !important;
+  }
+  .footer-center {
+    font-size: 15px !important;
+    max-width: 96vw !important;
+    margin: 0 auto 11px auto !important;
+    text-align: center !important;
+    font-family: "Rubik", sans-serif !important;
+    line-height: 1.5 !important;
+  }
+  #lil-text {
+    margin-bottom: 11px !important;
+  }
+  /* === extra: если есть списки цен (folder, folder1, и тд) === */
   .folder-list {
-    gap: 10px;
+    gap: 12px !important;
+    margin-top: 0 !important;
   }
   .folder {
-    font-size: 12px;
-    letter-spacing: 1px;
-    padding: 1px 0;
+    font-size: 14px !important;
+    letter-spacing: 1px !important;
+    padding: 2px 0 !important;
   }
   .folder1 {
-    font-size: 11px;
-    letter-spacing: 1px;
-    padding: 1px 0;
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+    padding: 1px 0 !important;
   }
 }
+
