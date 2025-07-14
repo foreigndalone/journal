@@ -277,3 +277,58 @@ footer h2 {
     max-width: 98vw;
   }
 }
+@media (max-width: 700px) {
+  .navbar {
+    width: 100vw;
+    min-width: 0;
+    margin: 0 auto;
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: row;        /* В ОДИН РЯД! */
+    flex-wrap: nowrap;          /* Не переносить вниз */
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+    box-sizing: border-box;
+  }
+  .nav-home,
+  .nav-contact {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-center {
+    display: flex;
+    flex-direction: row;        /* Всё по горизонтали */
+    align-items: center;
+    gap: 8px;                   /* Можно чуть уменьшить */
+    margin: 0;
+    padding: 0;
+    flex: 1 1 auto;
+  }
+  .navbar a, .nav-contact {
+    font-size: 13px;
+    padding: 6px 7px;
+    border-radius: 0;
+    min-width: unset;
+    width: auto;                /* Не растягиваться! */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .nav-contact {
+    border-width: 1.2px;
+    background: #000;
+    color: #FFFA95;
+  }
+  .nav-home svg {
+    width: 26px;
+    height: 26px;
+    padding: 1px;
+  }
+}
