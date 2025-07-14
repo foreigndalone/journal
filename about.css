@@ -386,7 +386,7 @@ svg {
     margin: 0 2px;
   }
   .navbar a, .nav-contact {
-    font-size: 20px;
+    font-size: 14px;
     padding: 12px 12px;
     border-radius: 0;
     min-width: unset;
@@ -405,7 +405,7 @@ svg {
     border: #FFFA95 1px solid;
     color: #FFFA95 !important;
     background: #000 !important;
-    font-size: 20px;
+    font-size: 14px;
     padding: 12px 12px;
     height: 32px;
     display: flex;
@@ -424,7 +424,7 @@ svg {
     letter-spacing: 1.2px;
   }
   .about-main {
-    font-size: 20px;
+    font-size: 24px;
     margin: 0 0 20px 0;
     color: #FFFA95;
     letter-spacing: -1.2px;
@@ -446,8 +446,8 @@ svg {
     width: 100%;
   }
   .about-photo {
-    width: 200vw;
-    max-width: 320px;
+    width: 140vw;
+    max-width: 280px;
     min-width: 60px;
     height: auto;
     object-fit: cover;
@@ -456,8 +456,8 @@ svg {
     margin: 0 auto 8px auto;
   }
   .about-mission {
-    font-size: 11px;
-    max-width: 93vw;
+    font-size: 24px;
+    max-width: 72vw;
     color: #fff;
     text-align: center;
     line-height: 1.5;
@@ -467,19 +467,19 @@ svg {
   }
   footer {
     margin-top: 24px;
-    padding: 0 2vw;
+    padding: 0 4vw;
     color: #fff;
     background: #000;
   }
   footer h2 {
-    font-size: 14px;
+    font-size: 28px;
     margin: 20px 0 9px 0;
     text-align: center;
     font-family: "Figtree", sans-serif;
     font-weight: 900;
   }
   .footer-center {
-    font-size: 10.3px;
+    font-size: 24px;
     max-width: 97vw;
     margin: 0 auto 12px auto;
     text-align: center;
