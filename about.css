@@ -336,17 +336,17 @@ svg {
     display: block;
   }
   .about-mission {
-    font-size: 13px;
+    font-size: 20px;
     max-width: 94vw;
     margin: 0 auto;
     text-align: center;
   }
   footer h2 {
-    font-size: 15px;
+    font-size: 28px;
     margin: 18px 0 10px 0;
   }
   .footer-center {
-    font-size: 11px;
+    font-size: 20px;
     max-width: 97vw;
     margin-bottom: 14px;
   }
