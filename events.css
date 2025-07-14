@@ -168,22 +168,105 @@ svg {
 }
 
 /* На совсем маленьких экранах — всё в столбик */
-@media (max-width: 480px) {
+@media (max-width: 420px) {
+  body, .body { background: #000; color: #fff; }
+
+  /* === NAVBAR === */
   .navbar {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 0 2vw;
+    width: 100vw;
+    margin: 0;
+    padding: 0 4vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+    box-sizing: border-box;
+    overflow-x: auto;
+    background: #000;
+    min-height: 56px;
   }
-  .nav-home,
-  .nav-center,
-  .nav-contact {
-    justify-content: center;
-    margin: 0 auto;
+  .nav-home {
+    margin-right: 2px;
+  }
+  .nav-home svg {
+    width: 48px;
+    height: 48px;
+    background: #FFFA95;
+    padding: 0;
   }
   .nav-center {
-    margin: 8px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    margin: 0 2px;
+  }
+  .navbar a, .nav-contact {
+    font-size: 12px;
+    padding: 12px 12px;
+    border-radius: 0;
+    min-width: unset;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: #fff !important;
+    white-space: nowrap;
+    height: 32px;
   }
   .nav-contact {
-    margin-bottom: 10px;
+    margin-left: 2px;
+    border: #FFFA95 1px solid;
+    color: #FFFA95 !important;
+    background: #000 !important;
+    font-size: 12px;
+    padding: 12px 12px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* === ЗАГОЛОВОК === */
+  .dalone {
+    margin-top: 32px !important;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .dalone h2 {
+    font-size: 38px;
+    margin: 0 0 16px 0;
+    font-family: "Figtree", sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+
+  /* === ГАЛЕРЕЯ === */
+  .gallery {
+    width: 100vw;
+    max-width: 99vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding-bottom: 32px;
+    padding-top: 4vw;
+  }
+  .inline-img {
+    width: 98vw;
+    max-width: 420px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 11px;
+    background: #181818;
+    box-shadow: 0 2px 16px #0007;
+    margin: 0 auto;
+    display: block;
   }
 }
