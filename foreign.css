@@ -120,6 +120,9 @@ section {
     letter-spacing: 1px;
     padding: 2px 0;
   }
+  .folder a:hover {
+  color: #FFFA95;
+}
   .folder-list {
     gap: 28px;
   }
