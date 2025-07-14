@@ -169,7 +169,7 @@ svg {
   .nav-center {
     margin: 8px 0;
   }
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   body, .body { background: #000; color: #fff; }
 
   /* === NAVBAR === */
@@ -199,7 +199,7 @@ svg {
   .nav-center {
     display: flex;
     flex-direction: row;
-    gap: 14px;
+    gap: 4px;
     justify-content: center;
     align-items: center;
     flex: 1 1 auto;
@@ -207,7 +207,7 @@ svg {
   }
   .navbar a, .nav-contact {
     font-size: 12px;
-    padding: 12px 12px;
+    padding: 10px 10px;
     border-radius: 0;
     min-width: unset;
     width: auto;
@@ -226,7 +226,7 @@ svg {
     color: #FFFA95 !important;
     background: #000 !important;
     font-size: 12px;
-    padding: 12px 12px;
+    padding: 10px 10px;
     height: 32px;
     display: flex;
     align-items: center;
