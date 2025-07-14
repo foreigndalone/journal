@@ -180,7 +180,7 @@ section {
   .navbar {
     width: 100vw !important;
     margin: 0 !important;
-    padding: 0 3vw !important;
+    padding: 0 2vw !important;
     display: flex !important;
     flex-direction: row !important;
     align-items: center !important;
@@ -205,7 +205,7 @@ section {
   .nav-center {
     display: flex !important;
     flex-direction: row !important;
-    gap: 12px !important;
+    gap: 4px !important;
     justify-content: center !important;
     align-items: center !important;
     flex: 1 1 auto !important;
@@ -213,8 +213,8 @@ section {
     min-width: 0 !important;
   }
   .navbar a, .nav-contact {
-    font-size: 14.5px !important;
-    padding: 10px 10px !important;
+    font-size: 10px !important;
+    padding: 6px 6px !important;
     min-width: unset !important;
     width: auto !important;
     height: 32px !important;
@@ -234,8 +234,8 @@ section {
     border: #FFFA95 1px solid !important;
     color: #FFFA95 !important;
     background: #000 !important;
-    font-size: 14.5px !important;
-    padding: 10px 10px !important;
+    font-size: 10px !important;
+    padding: 8px 8px !important;
     height: 32px !important;
     margin-left: 2px !important;
   }
