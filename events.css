@@ -168,7 +168,7 @@ svg {
 }
 
 /* На совсем маленьких экранах — всё в столбик */
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   body, .body { background: #000; color: #fff; }
 
   /* === NAVBAR === */
@@ -206,7 +206,7 @@ svg {
   }
   .navbar a, .nav-contact {
     font-size: 12px;
-    padding: 12px 12px;
+    padding: 10px 10px;
     border-radius: 0;
     min-width: unset;
     width: auto;
