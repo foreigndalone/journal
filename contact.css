@@ -236,6 +236,13 @@ svg {
     font-weight: 800 !important;
     letter-spacing: 1.1px !important;
     color: #fff !important;
+    text-decoration: none;
   }
+  .contact-section h3 a {
+  color: #fff !important;
+  text-decoration: none !important;
+  font-weight: inherit;
+}
+
 }
 
