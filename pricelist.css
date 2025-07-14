@@ -243,13 +243,13 @@ section {
   /* ===== Главные заголовки ===== */
   .dalone {
     margin-top: 26px !important;
-    margin-bottom: 0 !important;
+    margin-bottom: 96px !important;
     text-align: center !important;
   }
   .dalone h2,
   .about-up {
     font-size: 28px !important;
-    margin: 0 0 48px 0 !important;
+    margin: 96 0 96px 0 !important;
     font-family: "Figtree", sans-serif !important;
     font-weight: 900 !important;
     letter-spacing: 1.2px !important;
@@ -257,7 +257,7 @@ section {
   .dalone h1,
   .about-main {
     font-size: 40px !important;
-    margin: 96px 0 48px 0 !important;
+    margin: 96px 0 96px 0 !important;
     color: #FFFA95 !important;
     letter-spacing: -1.5px !important;
     font-family: "Figtree", sans-serif !important;
@@ -285,7 +285,7 @@ section {
     object-fit: cover !important;
     border-radius: 0 !important;
     display: block !important;
-    margin: 0 auto 12px auto !important;
+    margin: 96px auto 96px auto !important;
   }
   .about-mission {
     font-size: 20px !important;
